@@ -1,4 +1,4 @@
-
+/*styling for the sidenavigation menu*/
 .sidenav {
     margin-top: 300px;
 
@@ -7,6 +7,8 @@
     /* background-color: #111;*/
     overflow-x: hidden;
     border: black solid 1px;
+    box-sizing: content-box;
+
 }
 
 .sidenav a {
@@ -22,7 +24,7 @@
 }
 
 
-
+/*resizes sidenav when screen is reduces*/
 @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
@@ -36,12 +38,61 @@
     border: solid 1px black;
 
 }
+/*styling for the image*/
 .image{
-    border: 1px solid #ddd;
+
     border-radius: 50%;
-    padding: 5px;
+    padding: 15px;
     width: 150px;
+}
+/*styling for my orders page*/
+.myorders h1{
+    font-size: 50px;
+    font-weight: normal;
+    text-align: center;
+    font-family: "Edwardian Script ITC", "Serif";
+
+}
+
+.myorders p{
+    font-size: 20px;
+    font-family: Georgia, sans-serif;
+    text-align: center;
 }
 
 
+/*styling for my account page*/
 
+
+.myaccount p{
+    font-size: 20px;
+    text-align: center;
+}
+.myaccount input{
+
+    text-align: center;
+}
+.myaccount h1{
+    font-weight: normal;
+    font-size: 50px;
+    text-align: center;
+    font-family: "Edwardian Script ITC", "SansSerif";
+
+}
+
+/*styling for my bookings page*/
+
+.mybookings h1{
+    font-weight: normal;
+    font-size: 50px;
+    text-align: center;
+    font-family: "Edwardian Script ITC", "Edwardian Script ITC";
+
+}
+
+.mybookings p{
+    font-weight: normal;
+    font-size: 20px;
+    font-family: Georgia;
+    text-align: center;
+}
