@@ -1,0 +1,47 @@
+
+.sidenav {
+    margin-top: 300px;
+
+    position: absolute;
+
+    /* background-color: #111;*/
+    overflow-x: hidden;
+    border: black solid 1px;
+}
+
+.sidenav a {
+    padding: 6px 6px 6px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: black;
+}
+
+
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+#user.p{
+    color: yellow;
+
+}
+#user{
+    position: absolute;
+    border: solid 1px black;
+
+}
+.image{
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    padding: 5px;
+    width: 150px;
+}
+
+
+
