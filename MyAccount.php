@@ -4,6 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/Members.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+
     <title>My Account</title>
 </head>
 <body>
@@ -17,9 +19,9 @@
 </div>
 
 <div id="mySidenav" class="sidenav">
-    <a href="MyAccount.html">My account</a>
+    <a href="MyAccount.php">My account</a>
     <a href="Myorders.html">My orders </a>
-    <a href="MyBookings.html">My bookings</a>
+    <a href="MyBookings.php">My bookings</a>
 
 </div>
 
@@ -38,7 +40,10 @@
     <input type="email" class="email" id="email" placeholder="Email Address" required>
     <p class="Email"></p>
 
+
+
 </article>
+
 
 </body>
 </html>
