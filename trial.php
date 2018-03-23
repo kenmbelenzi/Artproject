@@ -1,23 +1,17 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <link type='text/css' rel='stylesheet' href='style.css'/>
-    <title>PHP!</title>
+    <meta charset="UTF-8">
+    <title>My Bookings</title>
+
 </head>
 <body>
-<?php
-$con = mysqli_connect("localhost","root","","art");
+<form action="uploads.php" method="POST" ENCTYPE="multipart/form-data">
+    <input type="file" name="file">
+    <button type="submit" name="submit">UPLOAD</button>
 
-// Check connection
-if (mysqli_connect_errno())
-{
-    echo "Failed to connect to MySQL kennnn: " . mysqli_connect_error();
-}
-else{
-    echo "connection successful";
-}
-?>
+
+</form>
 
 
 </body>
-</html>
