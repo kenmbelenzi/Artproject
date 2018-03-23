@@ -18,7 +18,7 @@
     <a href="MyAccount.php">My account</a>
     <a href="Myorders.html">My orders </a>
     <a href="MyBookings.php">My bookings</a>
-    <a href="Sellart.html">Sell Art</a>
+    <a href="Sellart.php">Sell Art</a>
 
 </div>
 
