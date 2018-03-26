@@ -1,12 +1,13 @@
 <?php
-session_start()
 ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>My Bookings</title>
+    <title>Myorders</title>
     <link rel="stylesheet" href="css/Members.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="js/images.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
     <link rel="stylesheet" href="css/home.css" type="text/css" />
     <!--link for icons-->
@@ -68,6 +69,11 @@ session_start()
     </script>
 
 </head>
+
+
+<!--START OF BODY TAG-->
+
+
 <body>
 <div id="navbar">
     <nav>
@@ -87,6 +93,7 @@ session_start()
         <button id ="loginbtn" onclick="window.location.href='login.php'" >Login</button>
     </div>
 </div>
+
 <div id="user" class="user">
     <article>
         <img class="image" src="icon.png">
@@ -99,7 +106,7 @@ session_start()
     </article>
 
 
-</div>
+</div>;
 
 <div id="mySidenav" class="sidenav">
     <a href="MyAccount.php">My account</a>
@@ -110,15 +117,18 @@ session_start()
 </div>
 
 
-<article  class="mybookings" style="margin-left:230px">
-    <h1>Manage your bookings</h1>
-    <p>View, reschedule or cancel your bookings </p>
 
+
+<article  class="myorders" style="margin-left:230px">
+    <h1>My orders</h1>
+    <p>Check the status of your orders or browse through your past purchases</p>
 
 
     <hr>
     <br>
 
+    <p>you have not placed any orders yet</p>
+    <p><a href="shop.php"> Go shopping!</a></p>
     <br>
     <hr>
 
