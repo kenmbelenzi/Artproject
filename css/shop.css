@@ -1,0 +1,105 @@
+body{
+    background: #FDEDEC;
+}
+
+#navbar {
+    overflow: hidden;
+    background-color: #FBE9E7;
+}
+
+/* Navbar links */
+.content {
+    padding: 16px;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+    padding-top: 60px;
+}
+#btn {
+
+    background-color: pink;
+    border: none;
+    color: white;
+    padding: 14px 16px;
+    font-size: 16px;
+    cursor: pointer;
+}
+/* Darker background on mouse-over */
+#btn:hover {
+    background-color:#FBE9E7 ;
+}
+
+#btnc{
+    float: right;
+    background-color: pink;
+    border: none;
+    color: white;
+    padding: 14px 16px;
+    font-size: 16px;
+    cursor: pointer;
+}
+#btnc:hover {
+    background-color:  gray;
+}/* Style the navbar */
+
+#headertext {
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+#sbtn:hover{
+    background-color: black;
+}
+.row {
+    margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column (if you want) */
+.row,
+.row > .column {
+    padding: 200px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 33.33%;
+    display: none; /* Hide columns by default */
+}
+
+/* Clear floats after rows */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Content */
+.content {
+    background-color: white;
+    padding: 10px;
+}
+/*
+.content{
+  position: absolute;
+  bottom: 0;
+  background: azure;
+  color: black;
+  width: ;
+  padding: 10px;
+}*/
+.flex {
+    display: flex; /* Make products flex in row direction (default) */
+    flex-wrap: wrap; /* Make products overflow on new row */
+    justify-content: center; /* Or space-between or space-around */
+}
